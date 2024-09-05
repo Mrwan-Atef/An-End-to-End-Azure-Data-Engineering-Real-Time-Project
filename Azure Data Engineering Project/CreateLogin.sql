@@ -1,3 +1,3 @@
-CREATE LOGIN MrMrwan WITH PASSWORD ='P@$sW0rd';
+CREATE LOGIN MrMrwan WITH PASSWORD ='it;s not real';
 
 CREATE USER MrMrwan FOR LOGIN MrMrwan

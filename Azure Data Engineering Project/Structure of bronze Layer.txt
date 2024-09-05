@@ -1,0 +1,10 @@
+@{
+ concat( dataset().SchemaName , ' / ' , dataset().TableName )    // folders
+ }
+
+
+
+@{
+  concat(dataset().TableName, '.parquet')         // FOR FILES
+ }
+

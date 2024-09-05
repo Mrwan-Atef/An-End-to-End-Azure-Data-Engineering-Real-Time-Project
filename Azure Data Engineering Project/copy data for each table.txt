@@ -1,0 +1,3 @@
+@{
+concat( 'SELECT * FROM', item().SchemaNmae ,item().TableName )
+ }

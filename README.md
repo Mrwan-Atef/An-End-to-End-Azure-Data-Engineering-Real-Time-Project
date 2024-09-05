@@ -40,7 +40,7 @@ Ensure you have the following Azure services and tools installed:
 - **Error**: If any resource wants to access the secret, it must be assigned a role. 
   - Solution: Assign a role to the resource (e.g., ADF) in **Azure Key Vault** to allow secret access.
 
-![RBAC Configuration](./results of each step/1.png)
+![RBAC Configuration](../results of each step/1.png)
 
 ### Common Errors:
 - **Error**: When encrypting secrets using RBAC, ensure that the admin role is properly assigned to create secrets.

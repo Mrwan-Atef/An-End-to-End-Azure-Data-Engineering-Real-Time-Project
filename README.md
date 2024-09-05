@@ -40,7 +40,7 @@ Ensure you have the following Azure services and tools installed:
 - **Error**: If any resource wants to access the secret, it must be assigned a role. 
   - Solution: Assign a role to the resource (e.g., ADF) in **Azure Key Vault** to allow secret access.
 
-![RBAC Configuration]([/results of each step/1.png](https://drive.google.com/file/d/1CqFbG7S_9HWQxDay6bHbWA9ilYzPbqdF/view?usp=drive_link))
+![RBAC Configuration](https://drive.google.com/file/d/1CqFbG7S_9HWQxDay6bHbWA9ilYzPbqdF/view?usp=drive_link))
 
 ### Common Errors:
 - **Error**: When encrypting secrets using RBAC, ensure that the admin role is properly assigned to create secrets.
@@ -68,14 +68,13 @@ Ensure you have the following Azure services and tools installed:
 - **Error**: Running the pipeline may throw an error if **Java Runtime Environment (JRE)** is not installed.
   - Solution: Install the necessary **JRE**.
 
-![Pipeline Setup](https://drive.google.com/file/d/1pZDxPpjwByIL62dk72IK9IvsVZzBoc9c/view?usp=drive_link)
-
+![Pipeline Setup](https://drive.google.com/file/d/1RLPvvNgnTE7a-WW5U3qz7iyk63f-x4wJ/view?usp=drive_link)
 ### 3.5 Create Dynamic Pipeline
 - Create a pipeline that copies all tables using **Lookup** and **ForEach** activities.
 - Use the `getschema.sql` script to get the schema name (e.g., **SalesLT**).
 - Use dynamic content to loop over tables and copy them to the sink.
   
-![Dynamic Pipeline](https://drive.google.com/file/d/16Idm7I0bAGiEqz_ROk2hqKklgWCZlfhw/view?usp=drive_link)
+![Dynamic Pipeline](https://drive.google.com/file/d/1QPPkFvizMD_kwi2rIRwHYLYzsvoBPfoy/view?usp=drive_link)
 
 ---
 
@@ -93,7 +92,7 @@ Ensure you have the following Azure services and tools installed:
 - Create a linked service in ADF for **Databricks** using an access token stored in **Key Vault**.
 - Add notebook activities for the transformations in the ADF pipeline.
 
-![ADB Integration](https://drive.google.com/file/d/1Vfyl6IlLfc_7p33ozlwatmqJ-DCUnAOE/view?usp=drive_link)
+![ADB Integration](https://drive.google.com/file/d/1Oc_DnzJdIdAHaZBxaQJX3IbGSBFyUkC4/view?usp=drive_link)
 
 ---
 
@@ -106,7 +105,7 @@ Ensure you have the following Azure services and tools installed:
 - Create a pipeline in ADF to generate views in **gold_db**.
 - Use a stored procedure to dynamically create views using the script `CreateViews_gold_db.sql`.
 
-![Synapse Views](https://drive.google.com/file/d/1ZNkCeG-CWZJCjzApufiHYYLvEnm9YYyJ/view?usp=drive_link)
+![Synapse Views](https://drive.google.com/file/d/19XFbOZhM2_MXuPUBp2QmBbr6a8Um4JAv/view?usp=drive_link)
 
 ---
 
@@ -116,7 +115,7 @@ Ensure you have the following Azure services and tools installed:
 - Load the views from **gold_db**.
 - Design interactive dashboards to visualize the data.
 
-![interactive dashboards](https://drive.google.com/file/d/1llN2EIH07zhsmVa8yZmNixMpyOS-LfIZ/view?usp=drive_link)
+![interactive dashboards](https://drive.google.com/file/d/1kMh33QfD3r50Jbxx6hOhyDhavIxv7Z6r/view?usp=drive_link)
 
 ---
 
